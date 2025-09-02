@@ -1,8 +1,6 @@
 import random
 from datetime import datetime
 
-# Developer: [Your Name]
-# Internship: CodeAlpha
 
 def chatbot():
     greetings = ["Hi!", "Hello!", "Hey there!", "Hi, nice to meet you!"]
@@ -13,7 +11,7 @@ def chatbot():
     ]
     goodbye_responses = ["Goodbye!", "See you later!", "Bye! Take care!"]
 
-    print("🤖 Chatbot: Welcome! Type 'bye' to exit.")
+    print(" Chatbot: Welcome! Type 'bye' to exit.")
 
     while True:
         user_input = input("You: ").lower()
@@ -33,3 +31,4 @@ def chatbot():
 
 if __name__ == "__main__":
     chatbot()
+
